@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wasted Potential</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="container-1 col col-lg-2">
+      <div class="header">
+        <img class="rounded" src="img/wasted potential.png" alt="" />
+        <h1>
+          <!-- My Google Maps Demo -->
+        </h1>
+      </div>
+      <div class="container-1-top fw-bold">
+        <h6>SPOTLIGHT</h6>
+        <div class="spotlight-container">
+          <h6 class="spotlight-name lead"></h6>
+          <h6 class="spotlight-owner lead"></h6>
+        </div>
+        <a class="refresh-btn btn btn-primary" href=""><svg id="i-reload" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round"
+            stroke-linejoin="round" stroke-width="2">
+            <path d="M29 16 C29 22 24 29 16 29 8 29 3 22 3 16 3 10 8 3 16 3 21 3 25 6 27 9 M20 10 L27 9 28 2" />
+          </svg></a>
+      </div>
+      <hr class="opacity-50" />
+      <div class="container-1-middle">
+        <h6>TOTAL STATIONS</h6>
+        <p class="total">5244</p>
+      </div>
+      <hr class="opacity-50" />
+      <div class="container-1-bottom">
+        <h6>OWNER'S LIST</h6>
+        <table class="breakdown-table"></table>
+      </div>
+    </div>
+
+    <!--The div element for the map -->
+    <div id="map" class="col col-lg-2"></div>
+    <div class="container-3 col col-lg-2">
+      <div class="container-3-top">
+        <h6>CURRENT LOCATION</h6>
+        <div class="buttons">
+          <button id="click" class="click-map">Click Map</button>
+          <button id="click" class="current-location">Current Location</button>
+        </div>
+        <form class="latitude-longitude-container" action="">
+          <div class="lat-container">
+            <svg id="i-search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none"
+              stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+              <circle cx="14" cy="14" r="8" />
+              <path d="M23 23 L30 30" />
+            </svg>
+            <label>LATITUDE: </label>
+            <input class="latitude latitude-longitude-container" type="text" onkeypress="return enterWith(event)" />
+          </div>
+          <div class="lng-container">
+            <svg id="i-search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none"
+              stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+              <circle cx="14" cy="14" r="8" />
+              <path d="M23 23 L30 30" />
+            </svg>
+            <label>LONGITUDE: </label>
+            <input class="longtitude latitude-longitude-container" type="text" onkeypress="return enterWith1(event)" />
+          </div>
+        </form>
+      </div>
+      <hr class="opacity-50" />
+      <div class="container-3-middle">
+        <h6>ADDRESS</h6>
+        <p class="current-address"></p>
+      </div>
+
+      <hr class="opacity-50" />
+      <div class="container-3-bottom">
+        <h6>NEAREST STATION</h6>
+        <div class="near">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://unpkg.com/default-passive-events"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="/class/Render.js"></script>
+  <script src="/class/MapMarkers.js"></script>
+  <script src="/client.js"></script>
+  <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
+  <script
+    src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADoWRWSMHfLNZHvSX406kXVEk8_MFx2pQ&map_ids=6e1e6e3760128692&callback=initMap"></script>
+</body>
+
+</html>

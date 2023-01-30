@@ -1,0 +1,194 @@
+* {
+  /* border: solid red 1px; */
+  box-sizing: border-box;
+}
+
+body {
+  height: 0;
+  bottom: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.header {
+  display: block;
+  text-align: center;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.window-pop-up {
+  font-size: 1rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: 10px;
+}
+
+h6 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.spotlight-box {
+  text-align: center;
+}
+
+.spotlight-name {
+  width: 60%;
+  margin: 1em auto;
+  cursor: pointer;
+}
+
+.spotlight-name:hover {
+  border: solid 1px black;
+  border-radius: 3px;
+  color: #0d6efd;
+}
+
+#map {
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+  min-width: 600px;
+  border: solid 2px black;
+}
+
+input {
+  display: block;
+}
+
+body {
+  font-family: "Pathway Gothic One", sans-serif;
+  margin: 0px;
+  background-color: #76ba99;
+}
+
+.spotlight-container {
+  margin: 10px;
+}
+
+#click {
+  text-align: center;
+  margin: 10px;
+}
+
+/* ------------- */
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 7fr 1fr;
+  border-radius: 10%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.container-1 {
+  border: solid 2px black;
+  min-width: 300px;
+  width: 100%;
+}
+
+.container-3 {
+  border: solid 2px black;
+  min-width: 450px;
+  height: 100vh;
+}
+
+.breakdown-table {
+  margin: 0 auto;
+}
+
+.tally-total {
+  text-align: right;
+}
+
+/* ------ */
+.render-station-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  /* margin: 5px auto; */
+  border: 1px solid grey;
+  border-radius: 5%;
+  min-width: 300px;
+  text-align: center;
+  cursor: pointer;
+  align-items: center;
+}
+
+.render-station {
+  margin: 9px;
+  cursor: default;
+  
+}
+
+img {
+  cursor: default;
+}
+
+.latitude-longitude-container {
+  text-align: center;
+  margin: 0 auto 10px;
+}
+
+/* ------ */
+
+.container-1-top {
+  margin-top: 10px;
+  min-width: 300px;
+  text-align: center;
+}
+
+.container-1-middle {
+  min-width: 300px;
+}
+
+.container-1-bottom {
+  min-width: 300px;
+}
+
+.refresh-btn {
+  margin-bottom: 10px;
+}
+/* ------- */
+
+.container-3-top {
+  min-width: 300px;
+}
+
+.click-map {
+  margin-left: 2.5em;
+}
+
+.container-3-middle {
+  min-width: 300px;
+}
+
+.container-3-bottom {
+  min-width: 300px;
+  margin-bottom: 10px;
+}
+
+.lat-container {
+  display: inline-block;
+}
+
+.lng-container {
+  display: inline-block;
+}
+
+.click-map {
+  display: inline-block;
+  justify-content: center;
+  min-width: 250px;
+}
