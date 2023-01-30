@@ -1,10 +1,11 @@
 # PROJECT 3 - Google Maps App by Wasted Potential
+
+![](https://github.com/aimanskie/petrolsearch-api/blob/main/petrolsearch.gif)
+
 A web application powered by the **Google Maps API** to locate 5000+ petrol stations in **Australia** and locate the petrol station nearest to you whenever, wherever. You'll never run out of petrol ever again with this amount of accessbility, unless you run out of money.\
 \
-![app screenshot](https://raw.git.generalassemb.ly/codececiliacode/SEI-Project03/master/public/img/project03-ss.png?token=AAAKRDKM5Q66DAHHZM4J6B3CXZORS)
 
 ## About Wasted Potential
-![wasted potential logo](https://raw.git.generalassemb.ly/codececiliacode/SEI-Project03/master/public/img/wasted%20potential.png?token=AAAKRDNKCRXF6PD2R56Z4LDCXVMC6)
 
 We are a group consisting of 4 members (Mun Hin, Aiman, Liyana & Cecilia) all based in Malaysia with our own individual strengths and a knack for programming. After being assigned into a group, we formed **Wasted Potential** and set out on a mission to create this app and poured our heart and soul into it. 
 
